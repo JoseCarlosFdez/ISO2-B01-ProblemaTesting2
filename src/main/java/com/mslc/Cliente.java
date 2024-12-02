@@ -24,7 +24,7 @@ public class Cliente {
     public void setEdad(int edad) throws ClienteInvalidoException {
     	if (edad < 0)
     		throw new ClienteInvalidoException("La edad no puede ser negativa");
-		this.edad = edad;
+	this.edad = edad;
     }
 
     public boolean isEstudiando() {
